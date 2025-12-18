@@ -10,6 +10,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel"
+import Autoplay from "embla-carousel-autoplay";
 
 
 const testimonials = [
@@ -56,6 +57,13 @@ export function SocialProof() {
         </div>
         
         <Carousel
+          plugins={[
+            Autoplay({
+              delay: 5000,
+              stopOnInteraction: true,
+              stopOnMouseEnter: true,
+            }),
+          ]}
           opts={{
             align: "start",
             loop: true,
@@ -85,6 +93,9 @@ export function SocialProof() {
           </CarouselContent>
           <CarouselPrevious className="hidden md:flex" />
           <CarouselNext className="hidden md:flex" />
+           <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 flex gap-2 embla__dots">
+            {/* Dots will be rendered by the carousel component */}
+          </div>
         </Carousel>
 
       </div>

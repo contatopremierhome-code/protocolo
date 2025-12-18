@@ -86,3 +86,16 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .embla__dots {
+    @apply flex list-none p-0 m-0;
+  }
+  .embla__dot {
+    @apply bg-transparent touch-manipulation inline-flex no-underline cursor-pointer border-0 p-0 m-1 w-3 h-3 items-center justify-center rounded-full;
+    background-color: hsl(var(--muted));
+  }
+  .embla__dot--selected {
+    background-color: hsl(var(--primary));
+  }
+}
