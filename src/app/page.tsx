@@ -6,6 +6,7 @@ import { AppFooter } from "@/components/landing/Footer";
 import { RecentSalesPopup } from "@/components/landing/RecentSalesPopup";
 import { ExitIntentPopup } from "@/components/landing/ExitIntentPopup";
 import { ScrollReveal } from "@/components/landing/ScrollReveal";
+import { TopicsCovered } from "@/components/landing/TopicsCovered";
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+
+        <ScrollReveal>
+          <TopicsCovered />
+        </ScrollReveal>
 
         <ScrollReveal>
           <SocialProof />
