@@ -8,6 +8,7 @@ import { ExitIntentPopup } from "@/components/landing/ExitIntentPopup";
 import { ScrollReveal } from "@/components/landing/ScrollReveal";
 import { TopicsCovered } from "@/components/landing/TopicsCovered";
 import { PowerfulQuestions } from "@/components/landing/PowerfulQuestions";
+import { ForWhom } from "@/components/landing/ForWhom";
 
 export default function Home() {
   return (
@@ -18,6 +19,10 @@ export default function Home() {
 
         <ScrollReveal>
           <PowerfulQuestions />
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <ForWhom />
         </ScrollReveal>
 
         <ScrollReveal>

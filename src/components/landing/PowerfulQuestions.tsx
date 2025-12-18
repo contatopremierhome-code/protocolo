@@ -15,7 +15,7 @@ export function PowerfulQuestions() {
             Para conduzir sessões mais profundas, fortalecer vínculos com seus pacientes e se tornar referência na escuta terapêutica.
           </p>
           <p className="text-lg md:text-xl text-foreground/80 font-body font-semibold">
-            Conduza sessões que seus pacientes nunca esquecem — com perguntas que desbloqueiam emoções e geram conexões reais.
+            Pare de repetir sempre as mesmas perguntas. Desperte o melhor da escuta terapêutica com perguntas que abrem portas internas.
           </p>
         </div>
       </div>
