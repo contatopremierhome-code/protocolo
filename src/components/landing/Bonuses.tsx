@@ -63,8 +63,8 @@ export function Bonuses() {
                     <Image
                       src={bonus.src}
                       alt={bonus.alt}
-                      width={150}
-                      height={150}
+                      width={180}
+                      height={180}
                       className="object-cover"
                        data-ai-hint="book cover"
                     />
