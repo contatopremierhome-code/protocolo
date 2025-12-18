@@ -51,7 +51,7 @@ export function OfferMatrix() {
           </Card>
 
           {/* Elite Card */}
-          <Card className="shadow-2xl relative border-2 border-[#D4AF37] scale-105">
+          <Card className="shadow-2xl relative border-2 border-[#D4AF37] lg:scale-105">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-primary-foreground px-4 py-1 rounded-full text-sm font-bold font-headline shadow-lg">
               MAIS VENDIDO
             </div>
@@ -76,7 +76,7 @@ export function OfferMatrix() {
             </CardContent>
             <CardFooter>
                <Button asChild size="lg" className="w-full text-base font-bold py-8 animate-pulse-glow">
-                <Link href="https://www.youtube.com.br" target="_blank">QUERO O PROTOCOLO COMPLETO + BÔNUS</Link>
+                <Link href="https://www.youtube.com.br" target="_blank">COMPRAR VERSÃO COMPLETA+BÔNUS</Link>
               </Button>
             </CardFooter>
           </Card>
