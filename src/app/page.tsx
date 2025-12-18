@@ -12,6 +12,7 @@ import { ForWhom } from "@/components/landing/ForWhom";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { FAQ } from "@/components/landing/FAQ";
 import { Bonuses } from "@/components/landing/Bonuses";
+import { GuaranteeSection } from "@/components/landing/GuaranteeSection";
 
 export default function Home() {
   return (
@@ -46,6 +47,10 @@ export default function Home() {
 
         <ScrollReveal>
           <FAQ />
+        </ScrollReveal>
+
+        <ScrollReveal>
+            <GuaranteeSection />
         </ScrollReveal>
 
         <ScrollReveal>
