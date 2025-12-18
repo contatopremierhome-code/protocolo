@@ -12,7 +12,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="py-20 md:py-32 bg-background">
+    <section className="py-10 md:py-16 bg-background">
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-col items-center gap-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-headline tracking-tight max-w-4xl">
