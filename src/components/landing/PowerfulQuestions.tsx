@@ -25,7 +25,7 @@ export function PowerfulQuestions() {
           </div>
           <div className="lg:w-1/2">
             <Image
-              src="https://eduprofy.com/wp-content/uploads/2025/07/a-5.png"
+              src="https://eduprofy.com/wp-content/uploads/2025/07/1.jpg"
               alt="Visual representation of the powerful questions guide"
               width={500}
               height={500}
