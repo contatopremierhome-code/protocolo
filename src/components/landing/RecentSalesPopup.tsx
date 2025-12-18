@@ -25,7 +25,7 @@ export function RecentSalesPopup() {
   useEffect(() => {
     const initialDelay = setTimeout(() => {
       showRandomSale();
-      const interval = setInterval(showRandomSale, 10000); // Show a new popup every 10 seconds
+      const interval = setInterval(showRandomSale, 20000); // Show a new popup every 20 seconds
       return () => clearInterval(interval);
     }, 5000); // First popup after 5 seconds
 
