@@ -24,7 +24,7 @@ export function ForWhom() {
     <section className="py-20 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">Para Quem É o Protocolo?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline">Para Quem É o Guia?</h2>
           <p className="text-lg text-foreground/70 mt-2">
             Se você se identifica com um dos perfis abaixo, este arsenal é para você.
           </p>
