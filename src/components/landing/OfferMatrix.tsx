@@ -9,10 +9,11 @@ const BasicFeatures = [
 ];
 
 const EliteFeatures = [
-  '600 Perguntas Poderosas (O Guia Completo)',
-  'BÔNUS 1: 20 Fichas de Tarefa (Worksheets)',
-  'BÔNUS 2: Manual de Escuta Ativa e Intervenção',
-  'BÔNUS 3: Script de Vendas (WhatsApp)',
+  "Acesso - As 600 perguntas mais poderosas para terapias",
+  "Bônus 01 - A Arte de Capturar e Manter a Atenção em Sessões Terapêuticas",
+  "Bônus 02 - Sessões Transformadora. A Arte de Conduzir Terapias Mais Leves e Eficazes",
+  "Bônus 03 - Exclusivo Hoje. Os segredos da terapia de casal",
+  "Garantia 7 dias - Reembolso total por qualquer motivo",
 ];
 
 export function OfferMatrix() {
@@ -60,6 +61,7 @@ export function OfferMatrix() {
               </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-col items-center">
+                <p className="text-lg text-muted-foreground mb-2">VOCÊ VAI RECEBER TODO ESSE CONTEÚDO</p>
               <p className="text-5xl font-extrabold font-headline mb-2 text-primary">R$ 19<span className="text-3xl align-top">,90</span></p>
               <p className="text-muted-foreground mb-6 font-bold">Apenas hoje</p>
               <ul className="space-y-3 text-left w-full">
