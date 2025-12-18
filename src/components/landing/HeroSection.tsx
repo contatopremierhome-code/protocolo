@@ -20,6 +20,18 @@ export function HeroSection() {
           <p className="max-w-3xl text-lg md:text-xl text-foreground/80 font-body">
             Para conduzir sessões mais profundas, fortalecer vínculos com seus pacientes e se tornar referência na escuta terapêutica.
           </p>
+
+          <div className="w-full max-w-2xl mx-auto aspect-video my-4">
+            <iframe
+              className="w-full h-full rounded-lg shadow-2xl"
+              src="https://www.youtube.com/embed/edcO_SZhVug?autoplay=1&mute=1&controls=0&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3&loop=1&playlist=edcO_SZhVug"
+              title="YouTube video player"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+
           <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-md shadow-md inline-flex items-center gap-3">
             <AlertTriangle className="h-6 w-6 text-yellow-600" />
             <p className="font-bold font-headline">
