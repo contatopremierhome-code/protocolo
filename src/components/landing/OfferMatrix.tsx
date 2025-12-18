@@ -32,7 +32,7 @@ export function OfferMatrix() {
             </CardHeader>
             <CardContent className="flex flex-col items-center">
               <p className="text-4xl font-extrabold font-headline mb-4">R$ 9<span className="text-2xl align-top">,90</span></p>
-              <p className="text-muted-foreground mb-6">Pagamento Único</p>
+              <p className="text-muted-foreground mb-6 font-bold">Pagamento Único</p>
               <ul className="space-y-3 text-left w-full">
                 {BasicFeatures.map((feature, i) => (
                   <li key={i} className="flex items-start gap-3">
