@@ -53,7 +53,7 @@ export function OfferMatrix() {
           {/* Elite Card */}
           <Card className="shadow-2xl relative border-2 border-[#D4AF37] scale-105">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#D4AF37] text-primary-foreground px-4 py-1 rounded-full text-sm font-bold font-headline shadow-lg">
-              OFERTA RECOMENDADA
+              MAIS VENDIDO
             </div>
             <CardHeader className="pt-10">
               <CardTitle className="text-3xl font-headline text-center">Protocolo Sessão de Ouro <span className="text-[#D4AF37]">ELITE</span></CardTitle>
