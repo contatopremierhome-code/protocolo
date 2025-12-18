@@ -94,7 +94,7 @@ export function SocialProof() {
           </CarouselContent>
           <CarouselPrevious className="hidden md:flex" />
           <CarouselNext className="hidden md:flex" />
-           <CarouselDots className="mt-8 md:hidden" />
+           <CarouselDots className="mt-8 justify-center" />
         </Carousel>
 
       </div>
