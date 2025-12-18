@@ -31,7 +31,7 @@ export function HeroSection() {
                 >
                    <div 
                     className="absolute inset-0 bg-cover bg-center"
-                    style={{backgroundImage: "url('https://eduprofy.com/wp-content/uploads/2025/07/1.jpg')"}}
+                    style={{backgroundImage: "url('https://i.imgur.com/s9454mx.png')"}}
                    >
                      <div className="absolute inset-0 bg-black/40"></div>
                    </div>

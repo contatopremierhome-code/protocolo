@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 
 const mainProduct = {
-  src: 'https://eduprofy.com/wp-content/uploads/2025/07/1.jpg',
+  src: 'https://i.imgur.com/s9454mx.png',
   alt: 'Capa do Protocolo Sessão de Ouro',
 };
 
