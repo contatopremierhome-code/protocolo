@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 
 const mainProduct = {
-  src: 'https://eduprofy.com/wp-content/uploads/2025/07/a-5.png',
+  src: 'https://eduprofy.com/wp-content/uploads/2025/07/1.jpg',
   alt: 'Capa do Protocolo Sessão de Ouro',
 };
 
@@ -48,7 +48,7 @@ export function Bonuses() {
                   width={400}
                   height={400}
                   className="object-cover"
-                  data-ai-hint="book cover"
+                  data-ai-hint="guide visualization"
                 />
               </CardContent>
             </Card>
@@ -63,8 +63,8 @@ export function Bonuses() {
                     <Image
                       src={bonus.src}
                       alt={bonus.alt}
-                      width={180}
-                      height={180}
+                      width={200}
+                      height={200}
                       className="object-cover"
                        data-ai-hint="book cover"
                     />
