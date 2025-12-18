@@ -6,9 +6,6 @@ export function Header() {
       <div className="container mx-auto flex items-center justify-center">
         <div className="flex items-center gap-2">
           <Gem className="h-6 w-6" style={{ color: '#D4AF37' }} />
-          <span className="text-xl font-bold font-headline tracking-wider text-foreground">
-            PROTOCOLO SESSÃO DE OURO
-          </span>
         </div>
       </div>
     </header>
