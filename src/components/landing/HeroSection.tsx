@@ -25,8 +25,8 @@ export function HeroSection() {
     setCurrentDate(new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long' }));
   }, []);
 
-  const headlineText = "Assuma o Controle Total do Consultório com o PROTOCOLO SESSÃO DE OURO: O Arsenal que Transforma Sessões Comuns em Experiências INESQUECÍVEIS.";
-  const headlineKeywords = ["Controle Total", "PROTOCOLO SESSÃO DE OURO", "INESQUECÍVEIS"];
+  const headlineText = "Assuma o Controle Total do Consultório com o PROTOCOLO SESSÃO DE OURO: O Arsenal que Transforma Sessões Comuns em Experiências INESQUECÍVEIS com as 600 PERGUNTAS MAIS PODEROSAS DA TERAPIA";
+  const headlineKeywords = ["Controle Total", "PROTOCOLO SESSÃO DE OURO", "INESQUECÍVEIS", "600 PERGUNTAS MAIS PODEROSAS DA TERAPIA"];
 
   return (
     <section className="py-20 md:py-32 bg-background">
