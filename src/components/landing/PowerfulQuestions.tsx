@@ -1,25 +1,38 @@
 import { BrainCircuit } from 'lucide-react';
+import Image from 'next/image';
 
 export function PowerfulQuestions() {
   return (
     <section className="py-20 md:py-24 bg-secondary">
-      <div className="container mx-auto px-4 text-center">
-        <div className="flex flex-col items-center gap-6 max-w-3xl mx-auto">
-          <div className="bg-primary/20 text-primary p-4 rounded-full mb-2">
-            <BrainCircuit className="h-10 w-10" />
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 text-center lg:text-left">
+          <div className="lg:w-1/2 flex flex-col items-center lg:items-start gap-6">
+            <div className="bg-primary/20 text-primary p-4 rounded-full mb-2">
+              <BrainCircuit className="h-10 w-10" />
+            </div>
+            <h2 className="text-3xl md:text-4xl font-bold font-headline text-foreground">
+              DESCUBRA AS 600 PERGUNTAS MAIS PODEROSAS DA TERAPIA
+            </h2>
+            <p className="text-lg md:text-xl text-foreground/80 font-body">
+              Para conduzir sessões mais profundas, fortalecer vínculos com seus pacientes e se tornar referência na escuta terapêutica.
+            </p>
+            <p className="text-lg md:text-xl text-foreground/80 font-body">
+              Esqueça as pausas constrangedoras e os atendimentos mornos. Com este guia completo, você terá perguntas certeiras para quebrar bloqueios emocionais, estimular reflexões profundas e criar um espaço de transformação real em cada sessão.
+            </p>
+            <p className="text-lg md:text-xl text-foreground/80 font-body font-semibold">
+              Transforme suas sessões com 600 perguntas poderosas que eliminam a insegurança, economizam seu tempo, engajam até os pacientes mais resistentes e promovem reflexões profundas, garantindo atendimentos mais eficazes, produtivos e transformadores para resultados reais e duradouros.
+            </p>
           </div>
-          <h2 className="text-3xl md:text-4xl font-bold font-headline text-foreground">
-            DESCUBRA AS 600 PERGUNTAS MAIS PODEROSAS DA TERAPIA
-          </h2>
-          <p className="text-lg md:text-xl text-foreground/80 font-body">
-            Para conduzir sessões mais profundas, fortalecer vínculos com seus pacientes e se tornar referência na escuta terapêutica.
-          </p>
-           <p className="text-lg md:text-xl text-foreground/80 font-body">
-            Esqueça as pausas constrangedoras e os atendimentos mornos. Com este guia completo, você terá perguntas certeiras para quebrar bloqueios emocionais, estimular reflexões profundas e criar um espaço de transformação real em cada sessão.
-          </p>
-          <p className="text-lg md:text-xl text-foreground/80 font-body font-semibold">
-            Transforme suas sessões com 600 perguntas poderosas que eliminam a insegurança, economizam seu tempo, engajam até os pacientes mais resistentes e promovem reflexões profundas, garantindo atendimentos mais eficazes, produtivos e transformadores para resultados reais e duradouros.
-          </p>
+          <div className="lg:w-1/2">
+            <Image
+              src="https://eduprofy.com/wp-content/uploads/2025/07/a-5.png"
+              alt="Visual representation of the powerful questions guide"
+              width={500}
+              height={500}
+              className="rounded-lg shadow-2xl mx-auto"
+              data-ai-hint="guide visualization"
+            />
+          </div>
         </div>
       </div>
     </section>
