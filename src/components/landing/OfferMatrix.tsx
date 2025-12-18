@@ -5,7 +5,6 @@ import { Check } from 'lucide-react';
 
 const BasicFeatures = [
   '600 Perguntas Poderosas (PDF)',
-  'Guia de Consulta Rápida',
 ];
 
 const EliteFeatures = [
