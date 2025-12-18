@@ -75,7 +75,7 @@ export function OfferMatrix() {
               </ul>
             </CardContent>
             <CardFooter>
-               <Button asChild size="lg" className="text-base md:text-lg text-center font-bold px-4 md:px-8 py-8 animate-pulse-glow">
+               <Button asChild size="lg" className="w-full text-base font-bold py-8 animate-pulse-glow">
                 <Link href="https://www.youtube.com.br" target="_blank">QUERO O PROTOCOLO COMPLETO + BÔNUS</Link>
               </Button>
             </CardFooter>
