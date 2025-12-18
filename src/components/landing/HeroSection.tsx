@@ -1,10 +1,11 @@
 'use client';
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowDown, AlertTriangle } from 'lucide-react';
+import { ArrowDown, AlertTriangle, PlayCircle } from 'lucide-react';
 
 export function HeroSection() {
   const [currentDate, setCurrentDate] = useState('');
+  const [playVideo, setPlayVideo] = useState(false);
 
   useEffect(() => {
     setCurrentDate(new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long' }));
@@ -21,15 +22,36 @@ export function HeroSection() {
             Para conduzir sessões mais profundas, fortalecer vínculos com seus pacientes e se tornar referência na escuta terapêutica.
           </p>
 
-          <div className="w-full max-w-2xl mx-auto aspect-video my-4">
-            <iframe
-              className="w-full h-full rounded-lg shadow-2xl"
-              src="https://www.youtube.com/embed/edcO_SZhVug?autoplay=1&controls=0&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3&loop=1&playlist=edcO_SZhVug"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+          <div className="w-full max-w-xs mx-auto my-4">
+            <div className="aspect-[9/16] w-full relative rounded-lg shadow-2xl border-4 border-foreground overflow-hidden">
+              {!playVideo && (
+                <button
+                  onClick={() => setPlayVideo(true)}
+                  className="absolute inset-0 w-full h-full flex flex-col items-center justify-center bg-black bg-opacity-50 z-10 cursor-pointer group"
+                >
+                   <div 
+                    className="absolute inset-0 bg-cover bg-center"
+                    style={{backgroundImage: "url('https://eduprofy.com/wp-content/uploads/2025/07/1.jpg')"}}
+                   >
+                     <div className="absolute inset-0 bg-black/40"></div>
+                   </div>
+                   <div className='relative flex flex-col items-center justify-center'>
+                    <PlayCircle className="h-20 w-20 text-white text-opacity-80 transition-transform group-hover:scale-110" />
+                    <span className="mt-2 text-white font-semibold text-lg">Toque para iniciar</span>
+                   </div>
+                </button>
+              )}
+              {
+                <iframe
+                  className="w-full h-full"
+                  src={`https://www.youtube.com/embed/edcO_SZhVug?${playVideo ? 'autoplay=1&' : ''}mute=0&controls=0&rel=0&showinfo=0&modestbranding=1&iv_load_policy=3&loop=1&playlist=edcO_SZhVug`}
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              }
+            </div>
           </div>
 
           <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-md shadow-md inline-flex items-center gap-3">
