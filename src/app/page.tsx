@@ -7,6 +7,7 @@ import { RecentSalesPopup } from "@/components/landing/RecentSalesPopup";
 import { ExitIntentPopup } from "@/components/landing/ExitIntentPopup";
 import { ScrollReveal } from "@/components/landing/ScrollReveal";
 import { TopicsCovered } from "@/components/landing/TopicsCovered";
+import { PowerfulQuestions } from "@/components/landing/PowerfulQuestions";
 
 export default function Home() {
   return (
@@ -14,6 +15,10 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+
+        <ScrollReveal>
+          <PowerfulQuestions />
+        </ScrollReveal>
 
         <ScrollReveal>
           <TopicsCovered />
