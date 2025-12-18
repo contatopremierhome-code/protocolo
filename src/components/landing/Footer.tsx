@@ -1,14 +1,8 @@
 import { ShieldCheck, Lock, Award } from 'lucide-react';
-import CountdownTimer from './CountdownTimer';
 
 export function AppFooter() {
   return (
     <>
-      <div className="bg-foreground text-background sticky bottom-0 z-40 py-3 shadow-2xl">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 text-center">
-          <CountdownTimer initialMinutes={25} />
-        </div>
-      </div>
       <footer className="bg-secondary py-8">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <div className="flex justify-center items-center gap-6 md:gap-10 flex-wrap mb-6">
