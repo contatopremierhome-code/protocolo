@@ -1,18 +1,13 @@
 'use client';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { ArrowDown, AlertTriangle, PlayCircle } from 'lucide-react';
+import { ArrowDown, PlayCircle } from 'lucide-react';
 
 export function HeroSection() {
-  const [currentDate, setCurrentDate] = useState('');
   const [playVideo, setPlayVideo] = useState(false);
 
-  useEffect(() => {
-    setCurrentDate(new Date().toLocaleDateString('pt-BR', { day: '2-digit', month: 'long' }));
-  }, []);
-
   return (
-    <section className="pb-10 md:pb-16 bg-background pt-4">
+    <section className="pb-10 md:pb-16 bg-background pt-8">
       <div className="container mx-auto px-4 text-center">
         <div className="flex flex-col items-center gap-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-headline tracking-tight max-w-4xl">
@@ -54,12 +49,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-800 p-4 rounded-md shadow-md inline-flex items-center gap-3">
-            <AlertTriangle className="h-6 w-6 text-yellow-600" />
-            <p className="font-bold font-headline">
-              ATENÇÃO: Desconto exclusivo para terapeutas ativo somente HOJE: {currentDate}.
-            </p>
-          </div>
+          
           <a href="#offers">
             <Button size="lg" className="text-base md:text-lg font-bold px-6 md:px-10 py-7 mt-4 w-full sm:w-auto animate-pulse-glow">
               QUERO ACESSO IMEDIATO AO PROTOCOLO
