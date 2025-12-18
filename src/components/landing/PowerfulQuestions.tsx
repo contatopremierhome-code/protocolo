@@ -15,7 +15,7 @@ export function PowerfulQuestions() {
             Para conduzir sessões mais profundas, fortalecer vínculos com seus pacientes e se tornar referência na escuta terapêutica.
           </p>
           <p className="text-lg md:text-xl text-foreground/80 font-body font-semibold">
-            Pare de repetir sempre as mesmas perguntas. Desperte o melhor da escuta terapêutica com perguntas que abrem portas internas.
+            Transforme suas sessões com 600 perguntas poderosas que eliminam a insegurança, economizam seu tempo, engajam até os pacientes mais resistentes e promovem reflexões profundas, garantindo atendimentos mais eficazes, produtivos e transformadores para resultados reais e duradouros.
           </p>
         </div>
       </div>
