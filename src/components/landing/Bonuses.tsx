@@ -32,7 +32,7 @@ export function Bonuses() {
     <section className="py-20 md:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline">PRESENTE EXCLUSIVO PARA OS 20 PRIMEIROS</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline">3 BÔNUS EXCLUSIVOS PARA OS 20 PRIMEIROS</h2>
           <p className="text-lg text-foreground/70 mt-2">
             Um arsenal completo para transformar suas sessões.
           </p>
@@ -63,8 +63,8 @@ export function Bonuses() {
                     <Image
                       src={bonus.src}
                       alt={bonus.alt}
-                      width={120}
-                      height={120}
+                      width={150}
+                      height={150}
                       className="object-cover"
                        data-ai-hint="book cover"
                     />
