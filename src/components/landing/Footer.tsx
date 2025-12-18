@@ -7,7 +7,7 @@ export function AppFooter() {
       <div className="bg-foreground text-background sticky bottom-0 z-40 py-3 shadow-2xl">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 text-center">
           <span className="font-headline font-bold text-lg">Sua oferta especial termina em:</span>
-          <CountdownTimer initialMinutes={10} />
+          <CountdownTimer initialMinutes={25} />
         </div>
       </div>
       <footer className="bg-secondary py-8">
