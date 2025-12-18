@@ -61,7 +61,7 @@ export function HeroSection() {
             </p>
           </div>
           <a href="#offers">
-            <Button size="lg" className="text-lg font-bold px-10 py-7 mt-4 w-full sm:w-auto animate-pulse-glow">
+            <Button size="lg" className="text-base md:text-lg font-bold px-6 md:px-10 py-7 mt-4 w-full sm:w-auto animate-pulse-glow">
               QUERO ACESSO IMEDIATO AO PROTOCOLO
               <ArrowDown className="ml-2 h-5 w-5" />
             </Button>
