@@ -11,6 +11,7 @@ import { PowerfulQuestions } from "@/components/landing/PowerfulQuestions";
 import { ForWhom } from "@/components/landing/ForWhom";
 import { HowItWorks } from "@/components/landing/HowItWorks";
 import { FAQ } from "@/components/landing/FAQ";
+import { Bonuses } from "@/components/landing/Bonuses";
 
 export default function Home() {
   return (
@@ -33,6 +34,10 @@ export default function Home() {
 
         <ScrollReveal>
           <HowItWorks />
+        </ScrollReveal>
+
+        <ScrollReveal>
+           <Bonuses />
         </ScrollReveal>
 
         <ScrollReveal>
