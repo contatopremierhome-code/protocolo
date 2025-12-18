@@ -52,7 +52,7 @@ export function HeroSection() {
           
           <a href="#offers">
             <Button size="lg" className="text-base md:text-lg font-bold px-6 md:px-10 py-7 mt-4 w-full sm:w-auto animate-pulse-glow">
-              QUERO ACESSO IMEDIATO AO PROTOCOLO
+              BAIXAR O MEU GUIA
               <ArrowDown className="ml-2 h-5 w-5" />
             </Button>
           </a>
