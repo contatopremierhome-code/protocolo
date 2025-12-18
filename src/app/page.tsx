@@ -9,6 +9,7 @@ import { ScrollReveal } from "@/components/landing/ScrollReveal";
 import { TopicsCovered } from "@/components/landing/TopicsCovered";
 import { PowerfulQuestions } from "@/components/landing/PowerfulQuestions";
 import { ForWhom } from "@/components/landing/ForWhom";
+import { HowItWorks } from "@/components/landing/HowItWorks";
 
 export default function Home() {
   return (
@@ -27,6 +28,10 @@ export default function Home() {
 
         <ScrollReveal>
           <TopicsCovered />
+        </ScrollReveal>
+
+        <ScrollReveal>
+          <HowItWorks />
         </ScrollReveal>
 
         <ScrollReveal>
