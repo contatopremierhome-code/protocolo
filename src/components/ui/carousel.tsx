@@ -289,17 +289,15 @@ const CarouselDots = React.forwardRef<
   return (
     <div
       ref={ref}
-      className={cn("flex gap-2 justify-center", className)}
+      className={cn("embla__dots", className)}
       {...props}
     >
       {scrollSnaps.map((_, index) => (
-        <Button
+        <button
           key={index}
-          variant="outline"
-          size="icon"
           className={cn(
-            "h-2 w-2 rounded-full",
-            index === selectedIndex ? "bg-primary" : "bg-muted"
+            "embla__dot",
+            index === selectedIndex && "embla__dot--selected"
           )}
           onClick={() => scrollTo(index)}
         />

@@ -9,6 +9,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
+  CarouselDots,
 } from "@/components/ui/carousel"
 import Autoplay from "embla-carousel-autoplay";
 
@@ -93,9 +94,7 @@ export function SocialProof() {
           </CarouselContent>
           <CarouselPrevious className="hidden md:flex" />
           <CarouselNext className="hidden md:flex" />
-           <div className="absolute -bottom-10 left-1/2 -translate-x-1/2 flex gap-2 embla__dots">
-            {/* Dots will be rendered by the carousel component */}
-          </div>
+           <CarouselDots className="mt-8 md:hidden" />
         </Carousel>
 
       </div>
