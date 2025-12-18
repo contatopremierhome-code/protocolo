@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
 import { Check } from 'lucide-react';
@@ -23,6 +24,18 @@ export function OfferMatrix() {
           <h2 className="text-3xl md:text-4xl font-bold font-headline">Escolha o Arsenal Ideal para Você</h2>
           <p className="text-lg text-foreground/70 mt-2">Dê o próximo passo para se tornar um terapeuta de elite.</p>
         </div>
+
+        <div className="flex justify-center mb-12">
+            <Image 
+                src="https://eduprofy.com/wp-content/uploads/2025/07/Design-sem-nome-41-e1752095666521.png"
+                alt="Selo de Garantia de 7 dias"
+                width={150}
+                height={150}
+                className="transform transition-transform duration-300 hover:scale-110"
+                data-ai-hint="guarantee seal"
+            />
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-4xl mx-auto items-start">
           {/* Basic Card */}
           <Card className="shadow-lg transform hover:scale-105 transition-transform duration-300">
