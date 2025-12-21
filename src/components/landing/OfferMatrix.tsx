@@ -76,7 +76,7 @@ export function OfferMatrix() {
             </CardContent>
             <CardFooter>
                <Button asChild size="lg" className="w-full text-base font-bold py-8 animate-pulse-glow">
-                <Link href="https://www.ggcheckout.com/checkout/v2/8oIigaETUQkkxsObA4a2" target="_blank">COMPRAR VERSÃO COMPLETA+BÔNUS</Link>
+                <Link href="https://www.ggcheckout.com/checkout/v2/3r4kNrRrA3Bc8wANrgbn" target="_blank">COMPRAR VERSÃO COMPLETA+BÔNUS</Link>
               </Button>
             </CardFooter>
           </Card>
